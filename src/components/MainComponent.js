@@ -6,6 +6,7 @@ import BlogDetails from './BlogDetails';
 import About from './About';
 import Contact from './Contact';
 import BlogDetailsX from './BlogDetailsX';
+import ThankYou from './ThankYou';
 
 import { Switch, Route } from 'react-router-dom';
 
@@ -32,6 +33,9 @@ function Main() {
             </Route>
             <Route path="/contact">
               <Contact/>
+            </Route>
+            <Route path="/thankyou">
+              <ThankYou/>
             </Route>
             <Route path="/blogs/:id">
               <BlogDetails/>
