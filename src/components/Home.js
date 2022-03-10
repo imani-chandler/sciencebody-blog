@@ -5,6 +5,7 @@ class Home extends Component {
         return (
             <div>
                 <h1>Home</h1>
+                <img src="/assets/images/ScienceBodyLogo.jpg" alt="science body logo" height="200"></img>
                 <p>Welcome to Science Body. Here our mission is to build healthier bodies through science. The goal of this website is to dispel some of the confusion surrounding exercise and nutrition. Here at Science Body, we will be discussing how you can build a healthier you through science. We will also be going over some of my own experiences throughout the years in hopes that it will help you reach your goals.</p>
             </div>
         )
