@@ -7,6 +7,7 @@ import About from './About';
 import Contact from './Contact';
 import BlogDetailsX from './BlogDetailsX';
 import ThankYou from './ThankYou';
+import Footer from './Footer';
 
 import { Switch, Route } from 'react-router-dom';
 
@@ -14,7 +15,6 @@ function Main() {
   return (
     <div>
         <Header/>
-        <div className="content">
           <Switch>
             <Route exact path="/">
               <Home/>
@@ -44,7 +44,7 @@ function Main() {
               <BlogDetailsX/>
             </Route>
           </Switch>
-        </div>
+          <Footer/>
       </div>
   );
 }

@@ -14,12 +14,12 @@ const BlogDetails = () => {
             <article >
                 <h2>{blog.title}</h2>
                 <p>Written by {blog.author}</p>
+                <img alt={blog.title} src={blog.imageURL}></img>
                 <div>{blog.body}</div>
                 <div  className='text-right'>
                 <Link to={`/blog`}><Button size="lg"><i className="fa fa-arrow-left fa-lg" /></Button></Link>
                 </div>
-            </article>
-            
+            </article>            
         </div>
      );
 }

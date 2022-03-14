@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Nav, Navbar, NavbarToggler, Collapse, NavItem, Jumbotron} from 'reactstrap';
+import {Nav, Navbar, NavbarToggler, Collapse, NavItem} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
@@ -23,8 +23,8 @@ class Header extends Component {
     render() {
         return (
             <React.Fragment>
-            <h1>Science Body</h1>
-            <Navbar light expand="md">
+            <h1 className='text-right mr-3'>Science Body</h1>
+            <Navbar className="mb-4" light expand="sm">
             <div className="container">
                 <NavbarToggler onClick={this.toggleNav} />
                 <Collapse isOpen={this.state.isNavOpen} navbar>                   
