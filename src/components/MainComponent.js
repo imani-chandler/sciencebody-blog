@@ -37,7 +37,7 @@ function Main() {
             <Route path="/thankyou">
               <ThankYou/>
             </Route>
-            <Route path="/blogs/:id">
+            <Route path="/article/:id">
               <BlogDetails/>
             </Route>
             <Route path="/x/:id">

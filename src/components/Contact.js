@@ -54,7 +54,7 @@ class Contact extends Component {
                             </Col>
                         </Row>
                     </FormGroup>
-                    <Input type="hidden" name="_next" value="http://localhost:3000/thankyou"></Input>
+                    <Input type="hidden" name="_next" value="http://localhost:8000/thankyou"></Input>
                 </Form>
             </div>
         )
